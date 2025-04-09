@@ -1,0 +1,65 @@
+/* frontend/src/App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e6f4ea;
+  color: #1f512d;
+}
+
+.container {
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(34, 139, 34, 0.2);
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  color: #2e7d32;
+  margin-bottom: 2rem;
+}
+
+.form input,
+.form select {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #a5d6a7;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form button {
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #43a047;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #2e7d32;
+}
+
+.result {
+  background-color: #f1f8e9;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+  border: 1px solid #c5e1a5;
+  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.15);
+}
